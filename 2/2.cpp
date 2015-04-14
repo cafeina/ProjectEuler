@@ -1,7 +1,6 @@
 #include <iostream>
 #include <numeric>
 #include <vector>
-#include <unistd.h>
 
 using namespace std;
 

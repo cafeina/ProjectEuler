@@ -1,7 +1,5 @@
-#include <ctime>
 #include <iostream>
-#include <numeric> // for the std::accumulate
-#include <set>
+#include <numeric>
 #include <vector>
 
 using namespace std;
@@ -14,6 +12,7 @@ int main()
 			multiples.push_back(n);
 
 	int sum = accumulate(multiples.begin(), multiples.end(), 0);
+	
 	cout << "Answer: " << sum << endl;
 
 	return 0;
